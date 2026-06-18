@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سياسة الخصوصية — SOLUNA | Privacy Policy</title>
+    <meta name="description" content="سياسة الخصوصية للعبة SOLUNA — Eclipse Runner | Privacy Policy for SOLUNA Eclipse Runner game">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;800&family=Fredoka:wght@600;800&display=swap" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Cairo', system-ui, sans-serif;
+            background: linear-gradient(180deg, #160b3a 0%, #0d0826 100%);
+            color: #f0eaff;
+            line-height: 1.8;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 820px;
+            margin: 0 auto;
+            background: rgba(255,255,255,0.04);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 24px;
+            padding: 40px 30px;
+            backdrop-filter: blur(8px);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid rgba(255,255,255,0.12);
+        }
+        .logo {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            font-family: 'Fredoka', sans-serif;
+            font-size: 36px;
+            font-weight: 800;
+            background: linear-gradient(135deg, #ffd24a, #b06bff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            margin-bottom: 10px;
+        }
+        h1 { font-size: 24px; color: #fff; margin: 14px 0 6px; }
+        .meta { color: #b5a6e0; font-size: 13.5px; }
+        .lang-toggle {
+            display: flex; justify-content: center; gap: 6px;
+            margin: 24px 0 0;
+        }
+        .lang-toggle button {
+            padding: 8px 22px;
+            border-radius: 999px;
+            border: 1.5px solid rgba(255,255,255,0.2);
+            background: rgba(255,255,255,0.05);
+            color: #fff;
+            font-family: 'Cairo', sans-serif;
+            font-weight: 700;
+            font-size: 13.5px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .lang-toggle button.active {
+            background: linear-gradient(180deg, #7c4dff, #5a2ed6);
+            border-color: #5a2ed6;
+            box-shadow: 0 4px 12px rgba(90,46,214,0.4);
+        }
+        .lang { display: none; }
+        .lang.active { display: block; }
+        h2 {
+            color: #ffd24a;
+            font-size: 19px;
+            margin: 28px 0 12px;
+            padding-inline-start: 10px;
+            border-inline-start: 4px solid #ffd24a;
+        }
+        h3 { color: #cdb4ff; font-size: 16px; margin: 18px 0 8px; }
+        p { margin: 10px 0; color: #e0d8f4; font-size: 14.5px; }
+        ul { padding-inline-start: 22px; margin: 8px 0; }
+        li { margin: 6px 0; color: #e0d8f4; font-size: 14.5px; }
+        strong, b { color: #fff; }
+        a {
+            color: #ffd24a;
+            text-decoration: none;
+            font-weight: 700;
+            border-bottom: 1px dashed rgba(255,210,74,0.5);
+            transition: opacity 0.2s;
+        }
+        a:hover { opacity: 0.85; }
+        .highlight {
+            background: rgba(124,77,255,0.12);
+            border: 1.5px solid rgba(124,77,255,0.3);
+            border-radius: 14px;
+            padding: 16px 18px;
+            margin: 16px 0;
+        }
+        .contact {
+            background: linear-gradient(135deg, rgba(255,210,74,0.12), rgba(255,138,60,0.10));
+            border: 1.5px solid rgba(255,210,74,0.3);
+            border-radius: 14px;
+            padding: 18px;
+            margin: 24px 0;
+            text-align: center;
+        }
+        .contact a { font-size: 17px; }
+        .footer {
+            text-align: center;
+            margin-top: 36px;
+            padding-top: 24px;
+            border-top: 1px solid rgba(255,255,255,0.12);
+            color: #8a7ba8;
+            font-size: 12.5px;
+        }
+        .en { font-family: 'Fredoka', system-ui, sans-serif; }
+        .en h1, .en h2, .en h3 { font-family: 'Fredoka', system-ui, sans-serif; }
+        @media (max-width: 600px) {
+            body { padding: 12px; }
+            .container { padding: 24px 18px; border-radius: 18px; }
+            .logo { font-size: 28px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="header">
+            <div class="logo">🌙 SOLUNA ☀️</div>
+            <h1 id="title">سياسة الخصوصية</h1>
+            <div class="meta" id="metaDate">آخر تحديث: 18 يونيو 2026</div>
+            <div class="lang-toggle">
+                <button id="btn-ar" class="active" onclick="setLang('ar')">العربية</button>
+                <button id="btn-en" onclick="setLang('en')">English</button>
+            </div>
+        </div>
+
+        <!-- العربية -->
+        <div class="lang active" id="lang-ar" dir="rtl">
+
+            <p>تحترم لعبة <strong>SOLUNA — Eclipse Runner</strong> (المُشار إليها بـ«اللعبة») خصوصيتك. توضّح هذه السياسة ما الذي تجمعه اللعبة وكيف تستخدمه.</p>
+
+            <div class="highlight">
+                <strong>الخلاصة سريعًا:</strong> اللعبة <strong>لا تبيع بياناتك</strong>، ولا تعرض إعلانات، ولا تستخدم أدوات تتبّع تجارية. كل ما يُحفظ هو ما تحتاجه اللعبة لتعمل (تقدّمك، نقاطك، حسابك).
+            </div>
+
+            <h2>1) المعلومات التي نجمعها</h2>
+
+            <h3>أ) محليًّا على جهازك فقط (لا تُرسَل لأي خادم):</h3>
+            <ul>
+                <li>اسمك المختار للعب.</li>
+                <li>أفضل نتائجك وسلسلة أيامك المتتالية.</li>
+                <li>إعدادات اللعبة (الوضع الداكن، اللغة، الصوت).</li>
+            </ul>
+
+            <h3>ب) عند إنشاء حساب (اختياري — يحفظ تقدّمك عبر الأجهزة):</h3>
+            <ul>
+                <li>اسم المستخدم الذي تختاره أنت.</li>
+                <li>كلمة المرور (تُجزَّأ آمنًا عبر Firebase Authentication — لا يستطيع أحد رؤيتها، حتى نحن).</li>
+                <li>تقدّمك في اللعبة (نجوم، كواكب مفتوحة، مشتريات داخل اللعبة).</li>
+                <li><strong>لا نطلب أو نخزّن بريدك الإلكتروني أو رقم هاتفك.</strong></li>
+            </ul>
+
+            <h3>ج) أثناء اللعب الجماعي (Online Race):</h3>
+            <ul>
+                <li>موضع كرتك ومسافتك يُرسَلان عبر Firebase Realtime Database لإظهارهما للخصوم.</li>
+                <li>هذه البيانات <strong>تُحذَف تلقائيًّا</strong> فور انتهاء الجولة.</li>
+            </ul>
+
+            <h2>2) كيف نستخدم بياناتك</h2>
+            <ul>
+                <li>تشغيل ميزات اللعبة (حفظ تقدّمك، اللعب الجماعي، المتجر).</li>
+                <li>إعادة بياناتك عند تسجيل الدخول من جهاز جديد أو بعد إعادة التثبيت.</li>
+                <li>لا نستخدمها لأغراض تسويقية أو دعائية.</li>
+            </ul>
+
+            <h2>3) ما الذي لا نفعله</h2>
+            <ul>
+                <li>❌ لا نبيع بياناتك ولا نشاركها مع معلنين.</li>
+                <li>❌ لا نطلب الوصول لموقعك أو جهات اتصالك أو صورك أو ميكروفونك أو كاميراك.</li>
+                <li>❌ لا توجد إعلانات داخل اللعبة.</li>
+                <li>❌ لا نستخدم أي أدوات تتبّع طرف ثالث (Google Analytics, Facebook SDK، إلخ).</li>
+            </ul>
+
+            <h2>4) خدمات الطرف الثالث</h2>
+            <p>تستخدم اللعبة خدمات Google Firebase التالية فقط:</p>
+            <ul>
+                <li><strong>Firebase Authentication</strong> — لإدارة الحسابات وحفظ كلمات المرور بشكل آمن.</li>
+                <li><strong>Firebase Realtime Database</strong> — لحفظ تقدّمك ومزامنة اللعب الجماعي.</li>
+            </ul>
+            <p>سياسة خصوصية Google: <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a></p>
+
+            <h2>5) حقوقك</h2>
+
+            <h3>أ) عرض بياناتك</h3>
+            <p>تسجّل دخولك في اللعبة وتشاهد كل بياناتك المحفوظة (النجوم، التقدّم، الإعدادات).</p>
+
+            <h3>ب) حذف حسابك وبياناتك (حقّ المسح الكامل)</h3>
+            <p>لحذف حسابك وكل بياناتك من خوادمنا، اتّبع الخطوات التالية:</p>
+            <ol style="padding-inline-start: 22px; margin: 10px 0;">
+                <li>افتح اللعبة → اضغط زر القائمة (≡).</li>
+                <li>اضغط «👤 الحساب».</li>
+                <li>اضغط زر «حذف الحساب».</li>
+                <li>اضغط للتأكيد.</li>
+            </ol>
+            <p>سيُحذف حسابك وكل بياناتك من خوادم Firebase نهائيًّا خلال ثوانٍ، ولن تستطيع استعادتها.</p>
+            <p>بدلًا من ذلك، يمكنك إرسال طلب الحذف عبر البريد إلى <a href="mailto:10secs.help@gmail.com">10secs.help@gmail.com</a> وسنحذف حسابك خلال 7 أيام عمل.</p>
+
+            <h3>ج) حذف البيانات المحلية</h3>
+            <p>إلغاء تثبيت التطبيق من جهازك يمسح كل البيانات المحفوظة محليًّا.</p>
+
+            <h2>6) أمان البيانات</h2>
+            <ul>
+                <li>كل البيانات مُشفَّرة أثناء النقل (HTTPS/TLS).</li>
+                <li>كلمات المرور تُجزَّأ بواسطة Firebase Authentication (لا تُحفَظ كنصّ صريح).</li>
+                <li>بيانات حسابك محميّة بقواعد أمان صارمة: لا يستطيع لاعب آخر رؤية بياناتك.</li>
+            </ul>
+
+            <h2>7) الأطفال</h2>
+            <p>اللعبة مناسبة لجميع الأعمار. لا نجمع عن قصد أي معلومات شخصية من أطفال دون 13 عامًا. لا نطلب بريدًا إلكترونيًّا أو أرقام هواتف أو أي بيانات هويّة حقيقية.</p>
+
+            <h2>8) المدفوعات داخل التطبيق</h2>
+            <p>قد تتضمّن اللعبة مشتريات داخل التطبيق (شراء حزم نجوم). تتمّ كل المعاملات عبر <strong>Google Play Billing</strong> فقط. نحن لا نخزّن أي معلومات دفع أو بطاقات ائتمان.</p>
+
+            <h2>9) التحديثات على هذه السياسة</h2>
+            <p>قد نحدّث هذه السياسة من حين لآخر. التغييرات الجوهرية ستُعلَن داخل اللعبة. استمرار استخدامك للعبة بعد التحديث يعني موافقتك على السياسة الجديدة.</p>
+
+            <h2>10) القانون المُطبَّق</h2>
+            <p>تخضع هذه السياسة لقوانين المملكة العربية السعودية.</p>
+
+            <div class="contact">
+                <h3 style="margin: 0 0 8px;">📧 الدعم والاستفسارات</h3>
+                <p style="margin: 0;">لأي سؤال عن الخصوصية أو طلب حذف بيانات:</p>
+                <p style="margin: 8px 0 0;"><a href="mailto:10secs.help@gmail.com">10secs.help@gmail.com</a></p>
+            </div>
+
+        </div>
+
+        <!-- English -->
+        <div class="lang en" id="lang-en" dir="ltr">
+
+            <p><strong>SOLUNA — Eclipse Runner</strong> (the "App") respects your privacy. This Privacy Policy explains what data the App collects and how it is used.</p>
+
+            <div class="highlight">
+                <strong>Quick summary:</strong> The App does <strong>not sell your data</strong>, does not show ads, and uses no commercial tracking tools. All stored information is strictly what the App needs to function (your progress, score, and account).
+            </div>
+
+            <h2>1) Information We Collect</h2>
+
+            <h3>a) Locally on your device only (never sent to any server):</h3>
+            <ul>
+                <li>The name you choose for play.</li>
+                <li>Your best scores and daily streak.</li>
+                <li>Game settings (dark mode, language, sound).</li>
+            </ul>
+
+            <h3>b) If you create an account (optional — saves progress across devices):</h3>
+            <ul>
+                <li>The username you choose.</li>
+                <li>Your password (securely hashed via Firebase Authentication — no one can read it, not even us).</li>
+                <li>Your game progress (stars, unlocked planets, in-app purchases).</li>
+                <li><strong>We never ask for or store your email address or phone number.</strong></li>
+            </ul>
+
+            <h3>c) During online multiplayer (Online Race):</h3>
+            <ul>
+                <li>Your orb's position and distance are streamed via Firebase Realtime Database so opponents can see you.</li>
+                <li>This data is <strong>automatically deleted</strong> the moment the round ends.</li>
+            </ul>
+
+            <h2>2) How We Use Your Data</h2>
+            <ul>
+                <li>Run game features (save progress, multiplayer, in-app shop).</li>
+                <li>Restore your data when you log in from a new device or after reinstall.</li>
+                <li>We do not use it for marketing or advertising purposes.</li>
+            </ul>
+
+            <h2>3) What We Do NOT Do</h2>
+            <ul>
+                <li>❌ We do not sell your data or share it with advertisers.</li>
+                <li>❌ We do not request access to your location, contacts, photos, microphone, or camera.</li>
+                <li>❌ No in-app ads.</li>
+                <li>❌ No third-party tracking tools (Google Analytics, Facebook SDK, etc.).</li>
+            </ul>
+
+            <h2>4) Third-Party Services</h2>
+            <p>The App uses only the following Google Firebase services:</p>
+            <ul>
+                <li><strong>Firebase Authentication</strong> — to manage accounts and securely store passwords.</li>
+                <li><strong>Firebase Realtime Database</strong> — to save your progress and sync online multiplayer.</li>
+            </ul>
+            <p>Google's Privacy Policy: <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a></p>
+
+            <h2>5) Your Rights</h2>
+
+            <h3>a) View Your Data</h3>
+            <p>Log into the App to view all of your saved data (stars, progress, settings).</p>
+
+            <h3>b) Delete Your Account & Data (Full Erasure)</h3>
+            <p>To delete your account and all your data from our servers:</p>
+            <ol style="padding-inline-start: 22px; margin: 10px 0;">
+                <li>Open the App → tap the menu (≡).</li>
+                <li>Tap "👤 Account".</li>
+                <li>Tap "Delete Account".</li>
+                <li>Tap again to confirm.</li>
+            </ol>
+            <p>Your account and all data will be permanently deleted from Firebase servers within seconds, and you will not be able to recover it.</p>
+            <p>Alternatively, send a deletion request to <a href="mailto:10secs.help@gmail.com">10secs.help@gmail.com</a> and we will delete your account within 7 business days.</p>
+
+            <h3>c) Delete Local Data</h3>
+            <p>Uninstalling the App from your device erases all locally stored data.</p>
+
+            <h2>6) Data Security</h2>
+            <ul>
+                <li>All data is encrypted in transit (HTTPS/TLS).</li>
+                <li>Passwords are hashed via Firebase Authentication (never stored in plain text).</li>
+                <li>Account data is protected by strict security rules: no other player can see your data.</li>
+            </ul>
+
+            <h2>7) Children</h2>
+            <p>The App is suitable for all ages. We do not knowingly collect any personal information from children under 13. We do not ask for email, phone numbers, or any real identity data.</p>
+
+            <h2>8) In-App Purchases</h2>
+            <p>The App may include in-app purchases (star pack purchases). All transactions are handled exclusively through <strong>Google Play Billing</strong>. We do not store any payment information or credit card details.</p>
+
+            <h2>9) Updates to This Policy</h2>
+            <p>We may update this Policy from time to time. Material changes will be announced in-app. Your continued use of the App after an update constitutes acceptance of the new Policy.</p>
+
+            <h2>10) Governing Law</h2>
+            <p>This Policy is governed by the laws of the Kingdom of Saudi Arabia.</p>
+
+            <div class="contact">
+                <h3 style="margin: 0 0 8px;">📧 Support & Inquiries</h3>
+                <p style="margin: 0;">For any privacy questions or data deletion requests:</p>
+                <p style="margin: 8px 0 0;"><a href="mailto:10secs.help@gmail.com">10secs.help@gmail.com</a></p>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            © 2026 10secs Studio · SOLUNA — Eclipse Runner<br>
+            <a href="mailto:10secs.help@gmail.com">10secs.help@gmail.com</a>
+        </div>
+
+    </div>
+
+    <script>
+        function setLang(lang) {
+            document.getElementById('lang-ar').classList.toggle('active', lang === 'ar');
+            document.getElementById('lang-en').classList.toggle('active', lang === 'en');
+            document.getElementById('btn-ar').classList.toggle('active', lang === 'ar');
+            document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+            document.documentElement.lang = lang;
+            document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+            document.getElementById('title').textContent = lang === 'ar' ? 'سياسة الخصوصية' : 'Privacy Policy';
+            document.getElementById('metaDate').textContent = lang === 'ar' ? 'آخر تحديث: 18 يونيو 2026' : 'Last updated: June 18, 2026';
+        }
+    </script>
+
+</body>
+</html>
